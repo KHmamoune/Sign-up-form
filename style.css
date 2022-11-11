@@ -1,0 +1,37 @@
+@font-face {
+    font-family: Norse;
+    src: url("font/Norse-Bold.otf");
+}
+
+body {
+    margin: 0;
+}
+
+.main {
+    display: flex;
+    height: 100vh;
+}
+
+.logo {
+    margin-top: 10vh;
+    display: flex;
+    height: 15vh;
+    background-color: rgba(0, 0, 0, 0.288);
+    justify-content: center;
+    color: white;
+    font-family: Norse;
+    font-size: 10vh;
+    
+}
+
+.txt {
+    margin: 0;
+    padding-block: 2.5vh;
+}
+
+.back {
+    background-image: url("images/halie-west-unsplash.jpg");
+    background-size: cover;
+    height: 100%;
+    width: 30%;
+}
